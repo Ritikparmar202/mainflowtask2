@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="about.html" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                        <a href="#">Our Team</a>
+                        <a href="#">Our Story</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Ritik tours & travels </h1>
+                <p>Your enjoyment is our priority. We offer the best services to make it memorable.</p>
+                <a href="#" class="cta-button" onclick="navigateToContact()">Get Started</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 style="font-size: 60px;">Our Features</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <img src="https://images.pexels.com/photos/238622/pexels-photo-238622.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Feature 1">
+                    <h3>GUIDE</h3>
+                    <p>Our expert guides offer personalized tours, ensuring you experience the best of your destination. With deep local knowledge, they provide insightful narratives and hidden gems that make your journey unforgettable. Trust our guides to enhance your travel experience with their expertise and passion.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Feature 2">
+                    <h3>TRAVEL</h3>
+                    <p>We handle all your travel needs, from transportation arrangements to itinerary planning. Enjoy seamless travel with our comprehensive services, ensuring you reach your destinations comfortably and on time. Let us take care of the logistics so you can focus on making memories.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://wallpapercave.com/wp/wp3598832.jpg" alt="Feature 3">
+                    <h3>STAY</h3>
+                    <p>Our curated accommodations provide comfort and convenience, tailored to your preferences and budget. From luxury hotels to cozy homestays, we ensure a relaxing stay after your adventures. Experience exceptional hospitality and a home away from home with our stay options.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Clients Say : </h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"This company provided excellent service and support. Highly recommend!"</p>
+                    <h4>@ritikparmar_</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Outstanding experience from start to finish. Great results!"</p>
+                    <h4>@pandit_ji_ko_chhoro_</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Professional and efficient. Will definitely use their services again."</p>
+                    <h4>@chiragvilas paswan</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Ritik tours and travel - All rights reserved.</p>
+    </footer>
+
+    <script>
+        function navigateToContact() {
+            window.location.href = 'contact.html';
+        }
+    </script>
+</body>
+</html>
